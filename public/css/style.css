@@ -1,0 +1,15 @@
+/*Estilos general de la pagina*/
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+/*Estilos para el cuadro del formulario o fieldset*/
+fieldset {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*Estilo para el boton de calcular*/
+#btn_calcular {
+    width: 100%;
+}
