@@ -15,5 +15,15 @@ btn_calcular.addEventListener('click',function(event){
     if(txt_numero_tabla === '' || isNaN(txt_numero_tabla)){
         txt_alerta.innerHTML = '<div class="alert alert-danger">Por favor, ingrese un número válido</div>';
         return;
-    }   
+    } 
+let tabla = "";
+
+// Usamo el ciclo DO WHILE 
+    let i = 1;
+    do{
+        tabla += txt_numero_tabla + " x " + i + " = " + (txt_numero_tabla * i) + "<br>";
+        i++;
+    }while(i <= 12);
+
+    txt_resultado.innerHTML = tabla;  
 });
