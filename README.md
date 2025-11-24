@@ -1,6 +1,6 @@
 # Proyecto: Calculadora de Tablas de Multiplicar
 
-En este proyecto se desarrolló una aplicación web para generar tablas de multiplicar. El objetivo principal de la práctica era utilizar JavaScript para la lógica, implementando específicamente el ciclo do while para realizar los cálculos matemáticos.
+En este proyecto se desarrolló una aplicación web para generar tablas de multiplicar. El objetivo principal de la práctica comprender el uso del ciclo do...while, manejo básico del DOM y formularios simples con Bootstrap.
 
 Para la parte visual se integró Bootstrap 5. Esto permitió darle un diseño ordenado y responsivo a los botones, las cajas de texto y las alertas, junto con un poco de CSS personalizado para centrar los elementos.
 
@@ -9,6 +9,7 @@ Lo primero que hace el código es validar la entrada. Si la caja está vacía, a
 Si el dato es correcto, entra en acción la lógica. Aquí es donde se utiliza la instrucción DO WHILE que recorre del 1 al 12 calculando el resultado de la multiplicación.
 
 Fragmento del código
+
 let i = 1;
 
 do {
