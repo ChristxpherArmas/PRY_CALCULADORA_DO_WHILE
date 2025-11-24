@@ -9,14 +9,12 @@ Lo primero que hace el código es validar la entrada. Si la caja está vacía, a
 Si el dato es correcto, entra en acción la lógica. Aquí es donde se utiliza la instrucción DO WHILE que recorre del 1 al 12 calculando el resultado de la multiplicación.
 
 Fragmento del código
-
 ```javascript
 let i = 1;
 do {
     tabla += txt_numero_tabla + " x " + i + " = " + (txt_numero_tabla * i) + "<br>";
     i++;
 } while (i <= 12);
+<img width="706" height="734" alt="image" src="https://github.com/user-attachments/assets/9f0cbb4b-61ee-4faf-93f5-f924e3a1ebc4" />
 
-<img width="706" height="734" alt="image" src="https://github.com/user-attachments/assets/b13e199a-c902-4253-8739-549e143add96" />
-<img width="741" height="511" alt="image" src="https://github.com/user-attachments/assets/5d298363-ab01-4609-aeeb-cb3815f94096" />
 
